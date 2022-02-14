@@ -1,0 +1,75 @@
+.figmaland__featurecard {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.figmaland__featurecard-heading {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 1rem 0rem;
+  /* justify-content: flex-start; */
+}
+.figmaland__featurecard-heading-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+.figmaland__featurecard-heading-title {
+  margin: 0rem 1rem;
+}
+
+.figmaland__featurecard-heading-title p {
+  font-family: var(--font-family-medium);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+
+  letter-spacing: 0.1px;
+
+  /* light text */
+
+  color: #ffffff;
+}
+
+.figmaland__featurecard-content p {
+  font-family: var(--font-family);
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: 0.2px;
+
+  /* light text */
+
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1024px) {
+  .figmaland__featurecard-content h3 {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+  }
+  .figmaland__featurecard-content p {
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    letter-spacing: 0.2px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .figmaland__featurecard-heading {
+    margin: 0rem 0rem;
+  }
+}

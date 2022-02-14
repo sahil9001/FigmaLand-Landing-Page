@@ -1,0 +1,128 @@
+.figmaland__features {
+  display: flex;
+  flex-direction: column;
+}
+
+.figmaland__features-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.figmaland__features-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 4rem 0rem;
+}
+
+.figmaland__features-content h3 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 52px;
+  line-height: 62px;
+  /* identical to box height, or 119% */
+
+  letter-spacing: 0.2px;
+
+  /* light text */
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+.figmaland__features-content p {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  /* light text */
+  max-width: 602px;
+
+  color: #ffffff;
+}
+
+.figmaland__features-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.figmaland__features-list-image {
+  flex: 2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 2rem;
+}
+.figmaland__features-list img {
+  width: 100%;
+  height: 100%;
+}
+.figmaland__features-list-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 1024px) {
+  .figmaland__features-content {
+    margin: 2rem 2rem;
+  }
+  .figmaland__features-list {
+    flex-direction: column;
+    margin: 0 1rem;
+  }
+  .figmaland__features-content h3 {
+    font-size: 40px;
+    line-height: 38px;
+
+    letter-spacing: 0.2px;
+  }
+  .figmaland__features-content p {
+    font-size: 16px;
+    line-height: 26px;
+    /* or 150% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* light text */
+    max-width: 602px;
+
+    color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .figmaland__features-content h3 {
+    font-size: 40px;
+    line-height: 38px;
+
+    letter-spacing: 0.2px;
+  }
+  .figmaland__features-content p {
+    font-size: 16px;
+    line-height: 26px;
+    /* or 150% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* light text */
+    max-width: 602px;
+
+    color: #ffffff;
+  }
+}

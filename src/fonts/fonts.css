@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "GraphikBlack";
+  src: local("GraphikBlack"), url("./GraphikBlack.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GraphikBlackItalic";
+  src: local("GraphikBlackItalic"),
+    url("./GraphikBlackItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GraphikBold";
+  src: local("GraphikBold"), url("./GraphikBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "GraphikBoldItalic";
+  src: local("GraphikBoldItalic"),
+    url("./GraphikBoldItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GraphikExtralight";
+  src: local("GraphikExtralight"),
+    url("./GraphikExtralight.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GraphikExtralightItalic";
+  src: local("GraphikExtralightItalic"),
+    url("./GraphikExtralightItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GraphikLightItalic";
+  src: local("GraphikLightItalic"),
+    url("./GraphikLightItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GraphikLight";
+  src: local("GraphikLight"), url("./GraphikLight.otf") format("opentype");
+}
+@font-face {
+  font-family: "GraphikMedium";
+  src: local("GraphikMedium"), url("./GraphikMedium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GraphikMediumItalic";
+  src: local("GraphikMediumItalic"),
+    url("./GraphikMediumItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GraphikRegular";
+  src: local("GraphikRegular"), url("./GraphikRegular.otf") format("opentype");
+}

@@ -1,0 +1,118 @@
+.figmaland__contentcard {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  background: #ffffff;
+  border: 1px solid #d3d3d3;
+  /* shadow */
+  max-width: 430px;
+  height: 100%;
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.figmaland__contentcard-container {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.figmaland__contentcard-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 2rem;
+}
+
+.figmaland__contentcard-heading {
+  font-family: var(--font-family-medium);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+  letter-spacing: 0.1px;
+
+  /* first text */
+
+  color: #000000;
+}
+
+.figmaland__contentcard-description {
+  max-width: 268px;
+  text-align: center;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  /* second text */
+  margin: 1.5rem 0rem;
+  color: #5c5c5c;
+}
+
+.figmaland__contentcard-button {
+  margin: 1rem 0 2rem 0;
+  width: 157px;
+  height: 52px;
+
+  /* primary */
+
+  background: #4452fe;
+  /* shadow */
+  border: none;
+  outline: none;
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+  font-family: var(--font-family-medium);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  /* identical to box height, or 147% */
+
+  letter-spacing: 0.2px;
+
+  /* light text */
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.figmaland__contentcard-image {
+  display: flex;
+  flex: 1;
+  align-items: flex-start;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+
+.figmaland__contentcard-image img {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 0rem 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .figmaland__contentcard-image {
+    margin: 2rem 0rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .figmaland__contentcard-button {
+    margin: 1rem 0 1rem 0;
+  }
+  .figmaland__contentcard-description {
+    margin: 1rem 0rem;
+  }
+}

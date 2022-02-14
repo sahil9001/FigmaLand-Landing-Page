@@ -1,0 +1,115 @@
+.figmaland__contents {
+  display: flex;
+  flex-direction: row;
+}
+
+.figmaland__contents-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.figmaland__contents-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 4rem 0rem;
+}
+.figmaland__contents-content_title h1 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 52px;
+  line-height: 62px;
+  /* identical to box height, or 119% */
+
+  letter-spacing: 0.2px;
+
+  /* light text */
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+.figmaland__contents-content_subheading p {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  /* light text */
+  max-width: 602px;
+
+  color: #ffffff;
+}
+
+.figmaland__contents-content-cards {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .figmaland__contents-content {
+    margin: 2rem 0rem;
+  }
+  .figmaland__contents-content-cards {
+    flex-direction: column;
+    margin: 0rem 2rem;
+  }
+  .figmaland__contents-content_title h1 {
+    font-size: 40px;
+    line-height: 38px;
+
+    letter-spacing: 0.2px;
+  }
+  .figmaland__contents-content_subheading p {
+    font-size: 16px;
+    line-height: 26px;
+    /* or 150% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* light text */
+    max-width: 602px;
+
+    color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .figmaland__contents-content {
+    margin: 2rem 2rem;
+  }
+  .figmaland__contents-content_title h1 {
+    font-size: 40px;
+    line-height: 38px;
+
+    letter-spacing: 0.2px;
+  }
+  .figmaland__contents-content_subheading p {
+    font-size: 16px;
+    line-height: 26px;
+    /* or 150% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* light text */
+    max-width: 602px;
+
+    color: #ffffff;
+  }
+}
