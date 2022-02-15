@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# FigmaLand Responsive UI
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# Screenshot 
+![](https://github.com/sahil9001/FigmaLand-Landing-Page/blob/master/src/assets/screenshot.svg)
 
 ## Available Scripts
 
