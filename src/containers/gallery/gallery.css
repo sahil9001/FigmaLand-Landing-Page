@@ -1,0 +1,158 @@
+.figmaland__gallery {
+  display: flex;
+  flex-direction: column;
+}
+
+.figmaland__gallery-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.figmaland__gallery-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 2rem 0rem;
+}
+.figmaland__gallery-images {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+}
+
+.figmaland__gallery-content h1 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 52px;
+  line-height: 62px;
+  /* identical to box height, or 119% */
+
+  letter-spacing: 0.2px;
+
+  /* light text */
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+.figmaland__gallery-content p {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  /* light text */
+  max-width: 602px;
+
+  color: #ffffff;
+}
+
+.figmaland__gallery-button {
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.figmaland__gallery-button button {
+  box-sizing: border-box;
+  cursor: pointer;
+
+  width: 159px;
+  height: 52px;
+
+  /* light text */
+
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+  /* primary */
+  border: none;
+  outline: none;
+  /* shadow */
+  margin: 2rem;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  font-family: var(--font-family-medium);
+  background: var(--color-bg);
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  /* identical to box height, or 147% */
+
+  letter-spacing: 0.2px;
+
+  /* light text */
+
+  color: #ffffff;
+}
+@media screen and (max-width: 1024px) {
+  .figmaland__gallery-content {
+    margin: 2rem 0rem;
+  }
+  .figmaland__gallery-content h1 {
+    font-size: 40px;
+    line-height: 38px;
+
+    letter-spacing: 0.2px;
+  }
+  .figmaland__gallery-content p {
+    font-size: 16px;
+    line-height: 26px;
+    /* or 150% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* light text */
+    max-width: 602px;
+
+    color: #ffffff;
+  }
+  .figmaland__gallery-button {
+    margin: 0rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .figmaland__gallery-content {
+    margin: 2rem 2rem;
+  }
+  .figmaland__gallery-content h1 {
+    font-size: 40px;
+    line-height: 38px;
+
+    letter-spacing: 0.2px;
+  }
+  .figmaland__gallery-content p {
+    font-size: 16px;
+    line-height: 26px;
+    /* or 150% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* light text */
+    max-width: 602px;
+
+    color: #ffffff;
+  }
+  .visible-large {
+    display: none;
+  }
+}

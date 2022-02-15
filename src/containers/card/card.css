@@ -1,0 +1,129 @@
+.figmaland__card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.figmaland__card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  background: #343434;
+  border-radius: 33px;
+  overflow: hidden;
+}
+
+.figmaland__card-content {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.figmaland__card-image {
+  flex: 1;
+  display: flex;
+}
+
+.figmaland__card-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.figmaland__card-heading {
+  flex: 1;
+  display: flex;
+}
+.figmaland__card-heading h1 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: normal;
+  max-width: 499px;
+  font-size: 52px;
+  line-height: 62px;
+  /* or 119% */
+
+  letter-spacing: 0.2px;
+
+  /* light text */
+  margin: 4rem 2rem 2rem 2rem;
+  color: #ffffff;
+}
+
+.figmaland__card-button {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.figmaland__card-button button {
+  width: 232px;
+  height: 52px;
+  border: none;
+  outline: none;
+  /* primary */
+
+  background: #4452fe;
+  /* shadow */
+
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+  font-family: var(--font-family-medium);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  /* identical to box height, or 147% */
+  letter-spacing: 0.2px;
+
+  /* light text */
+  cursor: pointer;
+  color: #ffffff;
+}
+.non-visible-toggle_card {
+  display: none;
+}
+@media screen and (max-width: 1270px) {
+  .figmaland__card-heading h1 {
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .figmaland__card {
+    /* padding: 0rem 4rem; */
+    background: #1e1e1e;
+  }
+  .visible-toggle_card {
+    display: none;
+  }
+  .non-visible-toggle_card {
+    display: flex;
+  }
+  .figmaland__card-container {
+    background: #1e1e1e;
+    flex-direction: column;
+    border-radius: 0;
+    margin-bottom: 0rem;
+  }
+  .figmaland__card-heading h1 {
+    font-size: 40px;
+    line-height: 50px;
+
+    letter-spacing: 0.2px;
+  }
+  .figmaland__card-button {
+    margin-bottom: 4rem;
+  }
+  .figmaland__card {
+    padding: 0;
+  }
+}

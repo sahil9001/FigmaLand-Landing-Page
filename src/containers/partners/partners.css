@@ -1,0 +1,182 @@
+.figmaland__partners {
+  display: flex;
+  flex-direction: column;
+}
+
+.figmaland__partners-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.figmaland__partners-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 2rem 0rem;
+}
+
+.figmaland__partners-content h1 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 52px;
+  line-height: 62px;
+  /* identical to box height, or 119% */
+
+  letter-spacing: 0.2px;
+
+  /* light text */
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+.figmaland__partners-content p {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  /* light text */
+  max-width: 602px;
+
+  color: #ffffff;
+}
+
+.figmaland__partners-brands {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.figmaland__partners-brands div {
+  cursor: pointer;
+  flex: 1;
+  max-width: 150px;
+  min-width: 120px;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.figmaland__partners-button {
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.figmaland__partners-button button {
+  box-sizing: border-box;
+  cursor: pointer;
+
+  width: 159px;
+  height: 52px;
+
+  /* light text */
+
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+  /* primary */
+  border: none;
+  outline: none;
+  /* shadow */
+  margin: 2rem;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  font-family: var(--font-family-medium);
+  background: var(--color-bg);
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  /* identical to box height, or 147% */
+
+  letter-spacing: 0.2px;
+
+  /* light text */
+
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1024px) {
+  .figmaland__partners-content {
+    margin: 2rem 0rem;
+  }
+  .figmaland__partners-content h1 {
+    font-size: 40px;
+    line-height: 38px;
+
+    letter-spacing: 0.2px;
+  }
+  .figmaland__partners-content p {
+    font-size: 16px;
+    line-height: 26px;
+    /* or 150% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* light text */
+    max-width: 602px;
+
+    color: #ffffff;
+  }
+  .figmaland__partners-button {
+    margin: 0rem;
+  }
+  .figmaland__partners-brands div {
+    min-width: 100px;
+    margin: 1rem 0rem;
+  }
+  .figmaland__partners-brands div img {
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .figmaland__partners-content {
+    margin: 2rem 2rem;
+  }
+  .figmaland__partners-content h1 {
+    font-size: 40px;
+    line-height: 38px;
+
+    letter-spacing: 0.2px;
+  }
+  .figmaland__partners-content p {
+    font-size: 16px;
+    line-height: 26px;
+    /* or 150% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* light text */
+    max-width: 602px;
+
+    color: #ffffff;
+  }
+  .figmaland__partners-brands div img {
+    width: 50px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+}

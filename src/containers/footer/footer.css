@@ -1,0 +1,88 @@
+.figmaland__footer {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem 4rem;
+}
+
+.figmaland__footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  text-align: left;
+}
+
+.figmaland__footer-links div {
+  max-width: 250px;
+  margin: 1rem;
+}
+
+.figmaland__footer-links-div {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.figmaland__footer-links-div h4 {
+  font-family: var(--font-family);
+  font-weight: 500;
+
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.1px;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.figmaland__footer-links-div p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.2px;
+
+  margin: 0.5rem 0;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.figmaland__footer-links_logo {
+  display: flex;
+  flex-direction: column;
+}
+.figmaland__footer-links_logo p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+.smalltext {
+  font-family: var(--font-family);
+  font-size: 16px !important;
+  margin: 0.5rem 0rem !important;
+}
+.figmaland__footer-links_logo-social {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 1rem 0rem;
+  cursor: pointer;
+}
+.figmaland__footer-links_logo-social img {
+  margin-right: 20px;
+}

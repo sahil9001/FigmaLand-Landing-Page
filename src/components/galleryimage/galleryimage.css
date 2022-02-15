@@ -1,0 +1,40 @@
+.figmaland__galleryimage {
+  display: flex;
+  /* flex: 1; */
+  margin: 0.8rem;
+}
+.figmaland__galleryimage img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1023px) {
+  .visible-large {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .figmaland__galleryimage {
+    margin: 0.4rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .figmaland__galleryimage {
+    margin: 0.4rem 0rem;
+  }
+  .figmaland__galleryimage img {
+    /* height: 225px; */
+    object-fit: cover;
+    width: 260px;
+    height: 260px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+}

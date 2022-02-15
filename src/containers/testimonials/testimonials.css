@@ -1,0 +1,69 @@
+.figmaland__testimonials {
+  display: flex;
+  flex-direction: column;
+}
+
+.figmaland__testimonials-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.figmaland__testimonials-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 2rem 0rem;
+}
+
+.figmaland__testimonials-content h1 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 52px;
+  line-height: 62px;
+  /* identical to box height, or 119% */
+
+  letter-spacing: 0.2px;
+
+  /* light text */
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+.figmaland__testimonials-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.figmaland__testimonials-cards div {
+  cursor: pointer;
+  max-width: 430px;
+  display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+  .figmaland__testimonials-cards div {
+    max-width: 300px;
+  }
+  .figmaland__testimonials-content h1 {
+    font-size: 40px;
+    line-height: 38px;
+
+    letter-spacing: 0.2px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .figmaland__testimonials-cards div {
+    max-width: 430px;
+  }
+}
