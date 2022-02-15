@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Figma design : https://www.figma.com/file/JQwpUQI5WhgQx51UUkX9UH/Figma-startup-landing-page-dark-(Community)
+
+Live preview : https://figma-land-landing-page.vercel.app/
+
 # Screenshot 
 ![](https://github.com/sahil9001/FigmaLand-Landing-Page/blob/master/src/assets/screenshot.svg)
 
