@@ -16,8 +16,16 @@ const Card = () => {
           </div>
         </div>
         <div className="figmaland__card-image">
-          <img src={card01} alt="card" className="visible-toggle_card" />
-          <img src={card02} alt="card" className="not-visible-toggle_card" />
+          <img
+            src={card01}
+            alt="card"
+            className="figmaland__card-image-visible"
+          />
+          <img
+            src={card02}
+            alt="card"
+            className="figmaland__card-image-not_visible"
+          />
         </div>
       </div>
     </div>

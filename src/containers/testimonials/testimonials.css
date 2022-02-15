@@ -37,11 +37,9 @@
 }
 
 .figmaland__testimonials-cards {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  /* align-items: center; */
-  justify-content: center;
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .figmaland__testimonials-cards div {
@@ -51,6 +49,9 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .figmaland__testimonials-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
   .figmaland__testimonials-cards div {
     max-width: 300px;
   }

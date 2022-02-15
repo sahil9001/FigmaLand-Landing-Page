@@ -86,9 +86,12 @@
   cursor: pointer;
   color: #ffffff;
 }
-.non-visible-toggle_card {
+.figmaland__card-image-not_visible {
   display: none;
 }
+/* .figmaland__card-image-visible {
+  display: none;
+} */
 @media screen and (max-width: 1270px) {
   .figmaland__card-heading h1 {
     font-size: 40px;
@@ -102,10 +105,10 @@
     /* padding: 0rem 4rem; */
     background: #1e1e1e;
   }
-  .visible-toggle_card {
+  .figmaland__card-image-visible {
     display: none;
   }
-  .non-visible-toggle_card {
+  .figmaland__card-image-not_visible {
     display: flex;
   }
   .figmaland__card-container {
